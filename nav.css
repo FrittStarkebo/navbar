@@ -1,0 +1,72 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav {
+  font-family: 'Fjalla One', sans-serif;
+  height: 400px;
+  width: 400px;
+}
+
+.rest {
+  display: none;
+  background: url(navbg.jpg);
+  margin-top: 0%;
+  height: 350px;
+}
+
+li {
+  margin-top: 15%;
+  width: 100px;
+  color: white;
+  font-size: 25px;
+  list-style-type: none;
+  text-align: center;
+  margin-left: 30%;
+}
+
+li :hover {
+  color: orange;
+}
+
+.navtop {
+
+  display: flex;
+  background: url(navbg.jpg);
+  margin-bottom: 0%;
+}
+
+#navtoptext {
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+  padding-top: 5%;
+  margin-left: 20%;
+}
+
+#översta {
+  margin-top: -17px;
+}
+
+#överstatext {
+  margin-top: 10%;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#bar {
+  max-width: 55px;
+  max-height: 55px;
+}
+
+.bott{
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
